@@ -1,4 +1,7 @@
-name = "domain-monitor"
+name = "cf-domain-autocheck"
 main = "_worker.js"
-compatibility_date = "2025-07-23"
-keep_vars = true
+compatibility_date = "2025-03-18"
+
+[[kv_namespaces]]
+binding = "DOMAIN_MONITOR"
+id = "your-kv-namespace-id" # 可选，可以暂时不填或从Cloudflare获取
