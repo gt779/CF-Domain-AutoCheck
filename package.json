@@ -1,0 +1,7 @@
+{
+  "name": "domain-monitor",
+  "version": "1.0.0",
+  "description": "Domain monitoring system for Cloudflare Pages",
+  "main": "_worker.js",
+  "private": true
+}
